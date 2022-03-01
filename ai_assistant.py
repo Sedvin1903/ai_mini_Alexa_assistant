@@ -85,7 +85,6 @@ def run_alexa():
             engine_talk( 'Current time is '+ time)
             engine_talk('and Today is : '+ d2)
 
-
         elif 'time' in command:
             time = datetime.datetime.now().strftime('%I:%M %p')
             print('The current time is' +time)
